@@ -15,7 +15,7 @@ credentials = service_account.Credentials.from_service_account_file(
 drive_service = build("drive", "v3", credentials=credentials)
 
 # Your shared Google Drive folder ID
-FOLDER_ID = "1eDTIK-fI6TfbhUsAqu4xp48R4hycpk0O"
+FOLDER_ID = "drive_folder_id"
 
 
 def upload_note(note_content, note_title):
